@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class AIAgent : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+	public AIMovement movement = null;
+	// Start is called before the first frame update
+	void Start()
     {
         
     }
